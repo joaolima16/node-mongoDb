@@ -8,9 +8,9 @@ const routes = require('./Routes')
 
 app.use(routes)
 app.use(express.json());
-const user = "joao";
+const user = 
 const test = process.env.DB_USER;
-const pass = "dul23101";
+const pass = 
 console.log(user)
 console.log(pass)
 
